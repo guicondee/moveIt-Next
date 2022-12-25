@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src="[.github/moveit.png" width="100%](https://raw.githubusercontent.com/rocketseat-education/nlw-04-reactjs/main/.github/moveit.png)">
+  <img alt="Happy" src="https://raw.githubusercontent.com/rocketseat-education/nlw-04-reactjs/main/.github/moveit.png">
 </p>
 
 ## ✨ Tecnologias
