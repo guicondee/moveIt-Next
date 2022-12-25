@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="move.it" title="move.it" src=".github/logo.png" />
+  <img alt="move.it" title="move.it" src="https://raw.githubusercontent.com/rocketseat-education/nlw-04-reactjs/main/.github/logo.png" />
 </h1>
 
 <p align="center">
