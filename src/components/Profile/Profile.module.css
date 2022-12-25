@@ -1,0 +1,37 @@
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+
+.profileContainer img {
+  border-radius: 40px;
+  width: 88px;
+  height: 88px;
+}
+
+.profileContainer div strong {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: var(--title);
+}
+
+.profileContainer div p {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+
+  margin-top: .8rem;
+
+  color: var(--text);
+}
+
+.profileContainer div p img {
+   margin-right: .8rem;
+   Width: 12.6px;
+   Height: 14.56px;
+
+
+}
