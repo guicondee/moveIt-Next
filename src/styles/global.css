@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /*COLORS */
   --white: #fff;
@@ -11,9 +17,12 @@
   --blue: #5965E0;
   --blue-dark: #4953B8;
   --blue-twitter: #2AA9E0;
+
+    /* FONTS  */
+    font-size: 62.5%;
 }
 
-@media(max-width: 1080px) {
+ @media(max-width: 1080px) {
     html {
       font-size: 62.5%;
     }
@@ -23,13 +32,8 @@
   html {
     font-size: 62.5%;
   }
-}
+} 
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 body {
   background: var(--background);

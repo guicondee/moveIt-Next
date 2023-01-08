@@ -6,12 +6,13 @@ import { Profile } from "../components/Profile/Profile";
 import Head from "next/head";
 
 import styles from '../styles/home.module.css'
- 
+import { ChallengeBox } from "../components/ChallengeBox/ChallengeBox";
+
 
 
 export default function Home() {
   return (
-    <div  className={styles.container}>
+    <main className={styles.container}>
       <Head>
         <title>Inicio | move.it</title>
       </Head>
@@ -24,10 +25,11 @@ export default function Home() {
           <CompletedChallenges />
           <CountDow />
         </div>
-        <div>
 
+        <div>
+          <ChallengeBox />
         </div>
       </section>
-    </div>
+    </main>
   )
 }
