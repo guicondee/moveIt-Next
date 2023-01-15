@@ -41,8 +41,8 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com `yarn`
-- Inicie o servidor com `yarn dev`
+- Instale as dependências com `npm`
+- Inicie o servidor com `npm run dev`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
