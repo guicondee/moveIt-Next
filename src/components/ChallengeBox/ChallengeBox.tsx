@@ -52,7 +52,6 @@ export function ChallengeBox() {
           <strong>
             Inicie um ciclo para receber desafios
           </strong>
-
           <p>
             <img src="/icons/Icon.svg" alt="setinha pra cima verde" />
             Avance de level completando desafios.
@@ -60,7 +59,5 @@ export function ChallengeBox() {
         </div>
       )}
     </div>
-
-
   )
 }
