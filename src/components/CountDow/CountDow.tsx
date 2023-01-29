@@ -21,7 +21,9 @@ export function CountDow() {
 
 
 
-
+  useEffect(() => {
+    document.title = `${minuteLeft}${minuteRight}:${secondLeft}${secondRight}`
+  }, [minuteLeft, minuteRight, secondRight, secondLeft])
 
   return (
     <div>
