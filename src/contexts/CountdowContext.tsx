@@ -36,7 +36,7 @@ export function CountdowProvider({ children }: CountdowContextProviderProps) {
   function resetCountdow() {
     clearTimeout(countdowTimeout)
     setIsActive(false)
-    setTime(0.1 * 60)
+    setTime(1800)
     setHasFinished(false)
 
   }
