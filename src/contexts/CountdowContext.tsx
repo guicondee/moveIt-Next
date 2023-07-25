@@ -22,7 +22,7 @@ export const CountdowContext = createContext({} as CountdowContextData)
 export function CountdowProvider({ children }: CountdowContextProviderProps) {
   const { startNewChallenge } = useContext(ChallengesContext)
 
-  const [time, setTime] = useState(0.1 * 60);
+  const [time, setTime] = useState(1800);
   const [isActive, setIsActive] = useState(false);
   const [hasFinished, setHasFinished] = useState(false);
 
