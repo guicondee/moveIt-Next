@@ -11,7 +11,7 @@
   width: 88px;
   height: 88px;
   border: 2px;
-  border-color: #4ade80;
+  border-color:var(--green);
 }
 
  
